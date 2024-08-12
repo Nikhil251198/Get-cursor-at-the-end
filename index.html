@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set cursor at the end</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Set cursor at end of elements demo</h1>
+        <section>
+           <p>Content Editable Div with Child nodes:</p>
+           <div contenteditable="true" id="1" class="element" spellcheck="false">
+              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis sit amet est sed volutpat. Ut eu ipsum quam.</span><span> Nam at tellus eu mauris lacinia ultrices sed at elit. Sed suscipit lectus in diam viverra, at dapibus dui lobortis.
+              </span>
+           </div>
+           <script>let element = document.getElementById("1")</script>
+           <button onclick='setCarat(element)'>
+           Set Cursor at end
+           </button>
+        </section>
+        <section>
+           <p>Textarea:</p>
+           <textarea id="2" class="element" spellcheck="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis sit amet est sed volutpat.</textarea>
+           <script>let element2 = document.getElementById("2")</script>
+           <button onclick='setCarat(element2)'>
+           Set Cursor at end
+           </button>
+        </section>
+        <section>
+           <p>Input:</p>
+           <input id="3" class="element" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit." spellcheck="false">
+           <script>let element3 = document.getElementById("3")</script>
+           <button onclick='setCarat(element3)'>
+           Set Cursor at end
+           </button>
+        </section>
+        <script src="index.js"></script>
+    
+</body>
+</html>
+
+
+
+

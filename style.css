@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #DFD8DC;
+  }
+  
+  body, p, div, textarea, input, button {
+     color: #333;
+    line-height: 1.5;
+    font-family: sans-serif;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 15px;
+    border-bottom: 1px solid #999;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #9a7f94;
+    border-bottom: 2px solid #9a7f94;
+  }
+  
+  .element {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    font-size: 14pt;
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 50px;
+    width: 100%;
+  }
+  
+  input {
+    display: inline-block;
+    min-width: 500px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #B4BAD4;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #949dc3;
+  }
